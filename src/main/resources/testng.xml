@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UCSC Test Automation Demo">
+
+    <listeners>
+        <listener class-name="actitime.extentreportlistener.ExtentReporterNG"/>
+    </listeners>
+
+    <test verbose="2" preserve-order="true"
+          name="/Users/pramukaseneviratne/Documents/4th Year First Sem/Advance Quality Assurance/Assignment/Actitime_Assignment/src/main/resources">
+        <classes>
+            <class name="actitime.testcases.HomePageTest"/>
+            <class name="actitime.testcases.LogonPageTest"/>
+        </classes>
+    </test>
+</suite>
