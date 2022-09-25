@@ -15,6 +15,9 @@ public class HomePage extends TestBase {
     @FindBy(xpath = "//a[@class='content reports']")
     WebElement reportsLink;
 
+    @FindBy(xpath = "//*[contains(text(),'Approve Time-Track')]")
+    WebElement approveTimeTrackLink;
+
     @FindBy(xpath = "//div[@id='logo_aT']")
     WebElement actitimeLogo;
 
@@ -39,6 +42,11 @@ public class HomePage extends TestBase {
     public ReportsPage clickOnReportsLink() {
         reportsLink.click();
         return new ReportsPage();
+    }
+
+    public TimeTrackingPage clickOnTimeTrackingLink() {
+        approveTimeTrackLink.click();
+        return new TimeTrackingPage();
     }
 
 }

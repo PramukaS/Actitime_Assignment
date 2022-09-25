@@ -11,6 +11,7 @@
         <classes>
             <class name="actitime.testcases.HomePageTest"/>
             <class name="actitime.testcases.LogonPageTest"/>
+            <class name="actitime.testcases.TimeTrackingPageTest"/>
         </classes>
     </test>
 </suite>
